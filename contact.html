@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- metadata -->
+<html>
+  <head>
+    <title>Simply Steel | Wellington</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+  </head>
+
+<!-- navbar content -->
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="./home.html">HOME</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./contact.html">CONTACT</a>
+      <div class="dropdown">
+        <button class="dropbtn">PRODUCT GALLERY
+          <i class="fa fa-caret-down"></i>
+        </button>
+      <div class="dropdown-content">
+          <a href="./product1.html">Balustrades</a>
+          <a href="./product2.html">Fencing</a>
+          <a href="./product3.html">Hand Rails</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!-- background image -->
+  <style>
+    .parallax {
+      background-image: url("./banner.jpeg");
+      opacity: 0.5;
+      min-height: 400px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+    <div class="parallax"></div>
+
+    <!-- logo content -->
+    <img class="logo" src="./logo.jpeg" width="490" height="100" alt="simply steel logo" align="right"><br>
+
+
+<!-- main content -->
+  <div class="site-container">
+    <main style="height:1900px;background-color:white;font-size:20px">
+      <h1>Contact SimplySteel</h1>
+      <h5>Please complete the contact form below:</h5>
+
+<!-- form content -->
+  <form class="sumbission-form" action="/Users/charissachhiba/Desktop/PROJECTS/SIMPLY%20STEEL/thanks.html" method="POST">
+    <label for="name">NAME:</label>
+      <input type="text" name="name">
+    <label for="phone">TELEPHONE:</label>
+      <input type="tel" name="phone" id="phone" minlength="7">
+    <label for="email">EMAIL:</label>
+      <input type="email" name="email" id="email">
+    <label>Regarding Product:</label>
+      <input list="continents" name="continentList">
+      <datalist id="continents">
+          <option value="Balustrade">
+          <option value="Fencing">
+          <option value="Hand Rail">
+      </datalist>
+<!-- tooltip content -->
+  <div class="tooltip">
+    <label for="message">MESSAGE:</label>
+      <span class="tooltiptext">Write your query, order or feedback here!</span>
+  </div>
+    <textarea name="message" id="message" rows="10" cols="40"></textarea>
+      <input type="submit" value="Send" id="send-btn">
+    </form><br>
+
+<!-- iframe content -->
+    <p>If you would like to meet with one of us in person to discuss a product or if you
+       would simply like to come in to view the showroom or take a tour of our workroom, please
+       come by and visit the store. We are looking forward to meeting with you.</p><br>
+
+    <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5997.4003455099655!2d174.7799129!3d-41.2718637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38ae2514f9777f%3A0x4c7cba7ddf99480c!2sSimply%20Steel!5e0!3m2!1sen!2snz!4v1573638993005!5m2!1sen!2snz"
+       width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p><br>
+
+    <p style="text-align: center;" >Simply Steel<br>
+        210 Thorndon Quay<br>
+        PO Box 7190<br>
+        Wellington<br>
+        New Zealand<br><br>
+        Telephone | Fax:<br>
+        (04) 4720896<br><br></p>
+
+    </main>
+  </div>
+
+  <!--  footer -->
+  <footer class="footer">
+    <br>
+    <h1>Simply Steel</h1>
+
+      <table>
+        <thead>
+          <th>STORE OPENING HOURS</th>
+          <th>COMPANY INFORMATION</th>
+          <th>QUICK LINKS</th>
+      </thead>
+        <tr>
+          <td> Monday to Friday:<br>
+               09:00 - 17:00<br><br>
+               210 Thorndon Quay<br>
+               PO Box 7190<br>
+               Wellington<br>
+               New Zealand<br><br>
+               Telephone | Fax:<br>
+               (04) 4720896<br><br>
+          </td>
+
+          <td><ul>
+              <li><a href="./home.html">Home</a></li><br>
+                <li><a href="./about.html">About</a></li><br>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+          </td>
+              <td><ul>
+                <li><a href="./product1.html">Balustrades</a></li><br>
+                <li><a href="./product2.html">Fencing</a></li><br>
+                <li><a href="./product3.html">Hand Rails</a></li>
+              </ul>
+            </td>
+         </tr>
+      </table>
+  </footer>
+
+  </body>
+  </html>
